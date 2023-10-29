@@ -9,7 +9,7 @@ export default function Nav() {
         {/* Title + Logo Section */}
         <div className='bg-[#9782ff] flex justify-center'>
           
-          <a href="http://localhost:3001/"><img className='mb-[-20px]py-3 mt-1' src="/logo.png" alt="logo" width={"200px"} />
+          <a href="https://purelifelab.vercel.app/"><img className='mb-[-20px]py-3 mt-1' src="/logo.png" alt="logo" width={"200px"} />
          
           </a>
 
@@ -20,7 +20,7 @@ export default function Nav() {
 
         <ul className='border-solid border-2 border-[#c9beff] inline-flex gap-3 sm:px-8 md:px-14 rounded-xl bg-[#5d46d4]'>
 
-          <a href="http://localhost:3001/"><li className='text-white hover:bg-[#9782ff] rounded-xl py-1 md:px-8 px-3 font-bold hover:ease-in-out duration-300 hover:cursor-pointer'>Home</li> </a>
+          <a href="https://purelifelab.vercel.app/"><li className='text-white hover:bg-[#9782ff] rounded-xl py-1 md:px-8 px-3 font-bold hover:ease-in-out duration-300 hover:cursor-pointer'>Home</li> </a>
           <a href="/page/about"><li className='text-white hover:bg-[#9782ff] rounded-xl py-1 md:px-8 px-3 font-bold hover:ease-in-out duration-300 hover:cursor-pointer'>About</li> </a>
           <a href="/page/ourmission"><li className='text-white hover:bg-[#9782ff] rounded-xl py-1 md:px-8 px-3 font-bold hover:ease-in-out duration-300 hover:cursor-pointer'>Our Mission</li> </a>
 
