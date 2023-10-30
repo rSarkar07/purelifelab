@@ -32,8 +32,11 @@
     background-color: #5d46d4;
     font: bold;
     transition: 0.3s;
+    text-align: center;
 }
 .style-links-Final:hover{
     background-color: antiquewhite;
     color: #5d46d4; 
+    font-size: 25px;
+    text-decoration: underline;
 }
