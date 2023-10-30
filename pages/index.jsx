@@ -11,7 +11,7 @@ export default function Home({ streams }) {
       <Head>
         <title>Pure Life Lab</title>
         <meta name="description" content="Health Blog" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du&family=Libre+Baskerville:wght@700&family=Lilita+One&family=Playfair+Display:ital,wght@1,600&family=Source+Code+Pro:ital,wght@1,300;1,900&family=Titillium+Web:wght@900&display=swap" rel="stylesheet"/>
 
