@@ -18,7 +18,7 @@ export default function StreamPage({ stream }) {
       <div className='px-5'>
         <h1 className='font-bold text-4xl font-custom-title xl:ml-24'>{stream.title}</h1> <br />
         <img className=' rounded w-[350px] h-[250] xl:ml-24 xl:w-[800px]' src={stream.coverImage.url} alt={`${stream.title} Cover Image`} /> <br />
-        <div className=' text-left font-custom-content text-[20px] xl:ml-24 xl:mr-24' dangerouslySetInnerHTML={{ __html: stream.description.html }} />
+        <div className=' px-6 text-left font-custom-content text-[20px] xl:ml-24 xl:mr-24' dangerouslySetInnerHTML={{ __html: stream.description.html }} />
       </div>
       <Footer />
     </div>
