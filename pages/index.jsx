@@ -17,6 +17,7 @@ export default function Home({ streams }) {
         <link href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du&family=Libre+Baskerville:wght@700&family=Lilita+One&family=Playfair+Display:ital,wght@1,600&family=Source+Code+Pro:ital,wght@1,300;1,900&family=Titillium+Web:wght@900&display=swap" rel="stylesheet"/>
 
       </Head>
+      
       {/* Components */}
       <Nav />
       
