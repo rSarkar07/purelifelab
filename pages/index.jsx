@@ -8,28 +8,33 @@ import Footer from "@/components/Footer";
 export default function Home({ streams }) {
   return (
     <div>
-      
       <Head>
         <title>Pure Life Lab</title>
         <meta name="description" content="Health Blog" />
-        <meta name="p:domain_verify" content="e7a0021487751868cfb3ab919d1ad94e"/>
+        <meta
+          name="p:domain_verify"
+          content="e7a0021487751868cfb3ab919d1ad94e"
+        />
         <link rel="icon" href="/favicon.png" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du&family=Libre+Baskerville:wght@700&family=Lilita+One&family=Playfair+Display:ital,wght@1,600&family=Source+Code+Pro:ital,wght@1,300;1,900&family=Titillium+Web:wght@900&display=swap" rel="stylesheet"/>
-
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du&family=Libre+Baskerville:wght@700&family=Lilita+One&family=Playfair+Display:ital,wght@1,600&family=Source+Code+Pro:ital,wght@1,300;1,900&family=Titillium+Web:wght@900&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-      
+
       {/* Components */}
       <Nav />
-      
+
       {/* Line Breaks */}
       <br />
       <br />
       <br />
       <br />
-      <h3 className="flex justify-center bg-[#047c85] ml-14 mr-14 rounded-xl font-custom-des text-[20px] text-white xl:ml-24 xl:mr-24">Featured Posts</h3>
+      <h3 className="flex justify-center bg-[#047c85] ml-14 mr-14 rounded-xl font-custom-des text-[20px] text-white xl:ml-24 xl:mr-24">
+        Featured Posts
+      </h3>
 
-      
       {/* Rendering Data */}
 
       <div className="ml-3 mr-3 scroll-py-5 xl:text-center">
@@ -49,12 +54,16 @@ export default function Home({ streams }) {
                 <p className="text-[#e16d00] font-bold text-[12px] xl:text-left">
                   Publish Date:- {stream.publishDate}
                 </p>
-                <p className="border-solid border-2  w-[25%] text-center rounded-xl bg-[#8676d6] border-[#7d64f9] text-white font-bold text-[12px]">{stream.articleCategory}</p>
-                
+                <p className="border-solid border-2  w-[25%] text-center rounded-xl bg-[#8676d6] border-[#7d64f9] text-white font-bold text-[12px]">
+                  {stream.articleCategory}
+                </p>
+
                 <h1 className="text-[20px] font-custom-title font-bold text-[#5d46d4]  xl:text-left">
                   {stream.title}{" "}
                 </h1>
-                <p className="xl:text-left font-custom-des text-[13px] italic hover:text-[#5d46d4] ease-in-out duration-300">{stream.frontdes}</p>
+                <p className="xl:text-left font-custom-des text-[13px] italic hover:text-[#5d46d4] ease-in-out duration-300">
+                  {stream.frontdes}
+                </p>
               </a>
             </li>
           ))}
