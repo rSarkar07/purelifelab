@@ -3,3 +3,27 @@
 @tailwind utilities;
 /* 
 Custom Styling : -  paragraph, point-heading, img-paragraph*/
+
+
+.paragraph, .point-heading, .img-paragraph{
+    margin-top: 8%;
+}
+
+.point-heading{
+    font-size: 20px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+img{
+    margin-top: 8%;
+}
+
+
+
+@media (max-width: 375px) {
+    .img-setting{
+        margin-left: 2%;
+    }
+      
+}

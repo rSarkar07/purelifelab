@@ -11,7 +11,7 @@ export default function AboutPage() {
             <br /><br /><br /> <br />
 
             <div className="flex justify-center">
-            <img src="/about-us.svg" alt="aboutus"  width={"250px"}/>
+            <img src="/about-us.svg" alt="about-us"  width={"250px"}/>
             </div>
 
             <div className="xl:px-12">
