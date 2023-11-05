@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 export default function Home({ streams }) {
   return (
     <div>
+      
       <Head>
         <title>Pure Life Lab</title>
         <meta name="description" content="Health Blog" />
